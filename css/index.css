@@ -9,12 +9,12 @@
     background-size: cover;
 }
 
-.underline {
+.about .underline {
     width: 180px;
     height: 9px;
     background: #F3B141;
     border-radius: 10px;
-    margin: -75px auto 0;
+    margin: -5% auto 0;
 }
 
 .about {
@@ -35,7 +35,7 @@
 }
 
 .about p {
-    margin-top: -90px;
+    margin-top: -5%;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -68,7 +68,56 @@
 
 .academics {
     width: 100vw;
-    height: 100vh;
     background: url("/assets/index/academics.png");
     background-size: cover;
+    padding: 20px;
+}
+
+.academics h1 {
+    margin-top: 62px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.academics .underline {
+    width: 180px;
+    height: 9px;
+    background: #F3B141;
+    border-radius: 10px;
+    margin: 0 auto 0;
+}
+
+.academics h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.box {
+    margin: 20px 30px;
+    width: 250px;
+    height: 200px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.box img {
+    width: 70px;
+    height: 70px;
+}
+
+.box h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
 }
