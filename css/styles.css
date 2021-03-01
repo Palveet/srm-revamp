@@ -2,3 +2,36 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.bg-light,
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.0)!important;
+}
+
+.navbar-brand img {
+    padding: 20px 25px;
+}
+
+.nav-item a {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    font-variant: small-caps;
+    color: #FFFFFF!important;
+    padding: 20px 25px!important;
+}
+
+.fixed-top.scrolled {
+    background-color: #0b192c !important;
+    transition: background-color 200ms linear!important;
+    height: 90px;
+}
+
+.fixed-top.scrolled .nav-link {
+    color: #fff!important;
+}
+
+.fixed-top.scrolled .navbar-brand img {
+    padding: 10px 15px;
+}
