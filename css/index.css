@@ -218,3 +218,140 @@
     color: #0B192C;
     margin-top: 50px;
 }
+
+.events .card {
+    width: 480px;
+    height: 335px;
+    background: url("/assets/index/event-card.png");
+    background-size: cover;
+    border-radius: 10px;
+    margin: 40px auto;
+    position: relative;
+    border: none;
+}
+
+.vclip {
+    position: absolute;
+    top: 14px;
+    right: 47px;
+}
+
+.events .date-1 {
+    position: absolute;
+    top: 32px;
+    right: 60px;
+    width: 40px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+}
+
+.events .card h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #DDC467;
+    text-align: left;
+    margin-left: 45px;
+    width: 200px;
+}
+
+.events .white-box {
+    position: absolute;
+    left: 32px;
+    top: 130px;
+    width: 236px;
+    height: 170px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+}
+
+.events .circle {
+    width: 60px;
+    height: 60px;
+    left: 116px;
+    top: 106.5px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    position: absolute;
+    left: 37%;
+    top: -15%;
+}
+
+.circle-img {
+    position: absolute;
+    left: 42%;
+    top: -7%;
+}
+
+.white-box p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: justify;
+    color: #0B192C;
+    padding: 40px 25px;
+}
+
+.events .blue {
+    text-align: justify;
+    color: #0C4EA2;
+}
+
+.events .sub-col {
+    width: 466px;
+    height: 67px;
+    background: #071F3F;
+    border-radius: 10px;
+    margin: 12px auto;
+    position: relative;
+}
+
+.space {
+    margin-top: 40px;
+}
+
+.sub-col .date {
+    position: absolute;
+    left: 5px;
+    top: 21px;
+    font-size: 17px;
+    font-weight: 600;
+    width: 90px;
+    color: #fff;
+    text-align: center;
+}
+
+.sub-col h1 {
+    position: absolute;
+    width: 174px;
+    height: 31px;
+    left: 267px;
+    top: 11px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.sub-col .content {
+    position: absolute;
+    width: 310px;
+    height: 31px;
+    left: 125px;
+    top: 33px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    color: #FFFFFF;
+}
