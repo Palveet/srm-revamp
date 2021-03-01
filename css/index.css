@@ -355,3 +355,107 @@
     text-align: right;
     color: #FFFFFF;
 }
+
+.campus-life {
+    width: 100vw;
+    background: #33404B;
+    background-size: cover;
+    padding: 20px;
+}
+
+.campus-life .underline {
+    width: 240px;
+    height: 9px;
+    background: #F3B141;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.campus-life h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    color: #FFFFFF;
+}
+
+.campus-life h3 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
+
+.resize-lg {
+    width: 750px;
+    height: 275px;
+    margin: 15px auto;
+}
+
+.resize-sm {
+    width: 300px;
+    height: 175px;
+    margin: 14px auto;
+}
+
+.campus-life .lg-overlay {
+    position: absolute;
+    bottom: 4%;
+    width: 750px;
+    height: 37px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.campus-life .sm-overlay {
+    position: absolute;
+    bottom: 6%;
+    width: 300px;
+    height: 37px;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.campus-life h6 {
+    font-size: 15px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+footer {
+    width: 100vw;
+    background: url("/assets/index/footer.png");
+    background-size: cover;
+    margin-top: -33px;
+}
+
+.top-space img {
+    margin-top: 10%;
+}
+
+footer ul li {
+    list-style-type: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.gold {
+    color: #DDC467;
+}
+
+footer h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+}
+
+footer .row {
+    padding: 50px 100px;
+}
