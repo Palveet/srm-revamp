@@ -206,3 +206,13 @@ footer {
 footer img {
     margin-top: 10%;
 }
+
+.collapsible {
+    display: inline-block;
+}
+
+@media(max-width:1000px) {
+    .collapsible {
+        display: block;
+    }
+}
