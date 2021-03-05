@@ -5,7 +5,6 @@
     .bg-light {
         background: url('/assets/header-2.png');
         height: 90px;
-        display: none;
     }
     
     .dropdown-menu {
