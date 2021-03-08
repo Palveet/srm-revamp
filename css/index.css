@@ -44,6 +44,7 @@
 
 .about {
     width: 100vw;
+    height: 100vh;
     background: url("/assets/index/about-bg.png");
     background-size: cover;
 }
@@ -527,4 +528,37 @@
         color: #0B192C;
         padding: 34px 20px;
     }
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF!important;
+    margin-bottom: 200px!important;
+    text-align: justify;
+    margin-left: 30%;
+}
+
+.carousel-p img {
+    position: absolute;
+    top: 54%;
+    left: 18%;
+    float: left;
+    width: 150px;
+    height: 80px;
+}
+
+.carousel-p .bold {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
