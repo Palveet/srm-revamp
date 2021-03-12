@@ -197,6 +197,9 @@
     }
     
     @media(max-width:1025px) {
+        .content p {
+            padding-right: 10%;
+        }
         .hide-on-small {
             display: none;
         }
@@ -251,7 +254,8 @@
             display: inline!important;
             width: 15px;
             font-size: 15px;
-            padding: 30px;
+            padding: 1%;
+            margin: 5%;
         }
         .owl-carousel .item ul li a {
             color: #706a54!important;
@@ -264,13 +268,13 @@
         .owl-prev,
         .owl-next {
             position: absolute;
-            top: 25%;
+            top: 30%;
         }
         .owl-prev {
-            left: 0;
+            left: 5%;
         }
         .owl-next {
-            right: 10%;
+            right: 5%;
         }
         .content {
             left: 5%;
@@ -286,6 +290,21 @@
         }
         .owl-dot {
             display: none;
+        }
+        .sub-content .carousel-item {
+            width: 90%!important;
+        }
+        .carousel-control-next {
+            right: 5%!important;
+        }
+        .carousel-indicators {
+            left: -10%!important;
+        }
+        footer {
+            position: absolute;
+            top: 150%;
+            margin-top: 0;
+            font-size: 10px;
         }
     }
     
