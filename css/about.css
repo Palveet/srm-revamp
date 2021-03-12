@@ -175,27 +175,6 @@
         text-decoration: none;
     }
     
-    .sub-content {
-        padding: 3%;
-    }
-    
-    .sub-content h2 {
-        font-style: normal;
-        font-weight: 600;
-        font-size: 25px;
-        line-height: 30px;
-        color: #0C4EA2;
-    }
-    
-    .sub-content p {
-        padding-right: 30%;
-        color: #000;
-    }
-    
-    .sub-content img {
-        width: 47%!important;
-    }
-    
     footer {
         position: absolute;
         top: 285%;
@@ -308,4 +287,53 @@
         .owl-dot {
             display: none;
         }
+    }
+    
+    .sub-content .carousel-item {
+        width: 75%;
+        border-radius: 2%;
+        background-color: #EBF4FF;
+        padding: 30px;
+    }
+    
+    .sub-content {
+        padding: 3%;
+    }
+    
+    .sub-content h2 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        color: #0C4EA2;
+    }
+    
+    .sub-content p {
+        color: #000;
+        padding-right: 0;
+        text-align: justify;
+    }
+    
+    .sub-content .carousel-item img {
+        margin: 0 auto;
+        width: 100%!important;
+    }
+    
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -3%;
+        left: -24%;
+        z-index: 2;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin-right: 15%;
+        margin-bottom: 1rem;
+        margin-left: 15%;
+        list-style: none;
+    }
+    
+    .carousel-indicators [data-bs-target] {
+        background-color: #0B192C;
     }
