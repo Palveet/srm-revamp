@@ -293,7 +293,7 @@
         width: 75%;
         border-radius: 2%;
         background-color: #EBF4FF;
-        padding: 30px;
+        padding: 40px 70px;
     }
     
     .sub-content {
@@ -317,6 +317,7 @@
     .sub-content .carousel-item img {
         margin: 0 auto;
         width: 100%!important;
+        height: 180px;
     }
     
     .carousel-indicators {
@@ -336,4 +337,25 @@
     
     .carousel-indicators [data-bs-target] {
         background-color: #0B192C;
+    }
+    
+    .carousel-control-prev-icon {
+        background-image: url("/assets/next.png");
+        transform: rotate(-180deg);
+        width: 1rem;
+        height: 1.5rem;
+    }
+    
+    .carousel-control-next-icon {
+        background-image: url("/assets/next.png");
+        width: 1rem;
+        height: 1.5rem;
+    }
+    
+    .carousel-control-next {
+        right: 20%;
+    }
+    
+    .carousel-control-prev {
+        left: -5%;
     }
