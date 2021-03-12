@@ -189,12 +189,11 @@
     
     .sub-content p {
         padding-right: 30%;
+        color: #000;
     }
     
     .sub-content img {
-        width: 47%;
-        position: absolute;
-        left: 29%;
+        width: 47%!important;
     }
     
     footer {
