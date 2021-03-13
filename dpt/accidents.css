@@ -1,0 +1,12 @@
+.content,
+.side-nav {
+    top: 35%;
+}
+
+.content img {
+    margin: 50px;
+}
+
+.content h3 {
+    color: #0b192c!important;
+}
