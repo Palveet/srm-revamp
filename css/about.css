@@ -5,6 +5,18 @@
     .bg-light {
         background: url('/assets/header-2.png');
         height: 90px;
+    }
+    
+    .navbar-brand img {
+        width: 80%;
+        padding: 10px 25px;
+    }
+    
+    .owl-carousel {
+        display: none!important;
+    }
+    
+    .no-display {
         display: none;
     }
     
@@ -196,7 +208,61 @@
         }
     }
     
+    @media(max-width:575px) {
+        .about h1 {
+            font-size: 35px;
+        }
+        .sub-nav-icon {
+            width: 16%!important;
+            height: 10%!important;
+            position: absolute;
+            top: 30%!important;
+            right: 5%!important;
+        }
+        .owl-carousel .item ul li {
+            font-size: 10px!important;
+        }
+        .owl-prev,
+        .owl-next {
+            top: 0!important;
+        }
+        .sub-content .carousel-item {
+            padding: 20px 40px!important;
+        }
+        .sub-content h2 {
+            font-size: 20px;
+        }
+        .content p {
+            font-size: 10px;
+        }
+        .carousel-control-next-icon,
+        .carousel-control-prev-icon {
+            width: 0.8rem!important;
+            height: 1rem!important;
+        }
+        footer {
+            top: 205%!important;
+        }
+        footer img {
+            margin-top: 30%;
+        }
+        footer .row {
+            padding: 50px 0px;
+        }
+    }
+    
     @media(max-width:1025px) {
+        .nav-item a,
+        .nav-item a:hover {
+            color: #0b192c!important;
+            background: white;
+        }
+        .navbar-nav {
+            background: #fff!important;
+        }
+        .no-display {
+            display: block;
+        }
         .content p {
             padding-right: 10%;
         }
@@ -246,6 +312,7 @@
             position: absolute;
             top: 45%;
             left: 0;
+            display: block!important;
         }
         .owl-carousel .item {
             margin-top: 10%;
