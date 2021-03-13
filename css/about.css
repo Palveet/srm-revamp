@@ -5,7 +5,11 @@
     .bg-light {
         background: url('/assets/header-2.png');
         height: 90px;
-        display: none;
+    }
+    
+    .navbar-brand img {
+        width: 80%;
+        padding: 10px 25px;
     }
     
     .dropdown-menu {
@@ -197,6 +201,9 @@
     }
     
     @media(max-width:1025px) {
+        .content p {
+            padding-right: 15%;
+        }
         .hide-on-small {
             display: none;
         }
@@ -214,7 +221,7 @@
             background-color: rgba(0, 0, 0, 0.0)!important;
             border: none;
             width: 12%;
-            height: 10%;
+            height: 8%;
             position: absolute;
             top: 30%;
             right: 8%;
@@ -267,7 +274,7 @@
             top: 25%;
         }
         .owl-prev {
-            left: 0;
+            left: 3%;
         }
         .owl-next {
             right: 10%;
