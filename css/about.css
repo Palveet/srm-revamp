@@ -263,6 +263,9 @@
         .no-display {
             display: block;
         }
+        .content {
+            margin-top: 45%;
+        }
         .content p {
             padding-right: 10%;
         }
