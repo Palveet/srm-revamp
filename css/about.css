@@ -138,9 +138,11 @@
     }
     
     .content {
+        /*
         position: absolute;
         top: 60%;
-        left: 26%;
+        left: 26%;*/
+        margin-top: 25%;
     }
     
     .content h4 {
@@ -188,8 +190,9 @@
     }
     
     footer {
+        /*
         position: absolute;
-        top: 285%;
+        top: 285%;*/
         margin-top: 0;
         font-size: 10px;
     }
@@ -239,9 +242,6 @@
         .carousel-control-prev-icon {
             width: 0.8rem!important;
             height: 1rem!important;
-        }
-        footer {
-            top: 205%!important;
         }
         footer img {
             margin-top: 30%;
@@ -368,8 +368,6 @@
             left: -10%!important;
         }
         footer {
-            position: absolute;
-            top: 150%;
             margin-top: 0;
             font-size: 10px;
         }
