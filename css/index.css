@@ -21,17 +21,20 @@
     background: linear-gradient(#0b192c, rgba(0, 0, 0, 0.0));
 }
 
-.covid h3 {
-    font-size: 14px;
+.covid a h3 {
+    color: #fff;
+    font-size: 12px;
     text-decoration: underline;
     margin-left: 5%;
     margin-top: 15px;
 }
 
-.covid p {
+.covid a p {
+    color: #fff;
     font-size: 12px;
     margin-right: 5%;
     margin-top: 15px;
+    text-decoration: none!important;
 }
 
 .about .underline {
