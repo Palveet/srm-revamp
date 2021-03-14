@@ -3,7 +3,7 @@
 }
 
 .underline {
-    width: 160px;
+    width: 50%;
     height: 9px;
     background: #F3B141;
     border-radius: 10px;
@@ -11,6 +11,11 @@
     z-index: 1;
 }
 
+.content p {
+    padding-right: 0;
+    margin-top: 50px;
+}
+
 table {
-    margin: 50px auto;
+    margin-top: 50px;
 }
