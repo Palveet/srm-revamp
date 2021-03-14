@@ -263,6 +263,9 @@
         .no-display {
             display: block;
         }
+        .content {
+            margin-top: 45%;
+        }
         .content p {
             padding-right: 10%;
         }
@@ -442,4 +445,18 @@
     
     .carousel-control-prev {
         left: -5%;
+    }
+    
+    .side-nav .active {
+        color: #0C4EA2!important;
+    }
+    
+    .vertical {
+        position: absolute;
+        top: 2.8%;
+        left: 8%;
+        width: 17.5px;
+        height: 0px;
+        border: 3px solid #0C4EA2;
+        transform: rotate(-90deg);
     }

@@ -1,0 +1,22 @@
+.content {
+    margin-top: 15%;
+}
+
+.underline {
+    width: 30%;
+    height: 9px;
+    background: #F3B141;
+    border-radius: 10px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.content p {
+    padding-right: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h5 {
+    color: #063A7E;
+}
