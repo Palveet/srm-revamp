@@ -226,12 +226,22 @@
             top: 30%!important;
             right: 5%!important;
         }
+        .owl-carousel {
+            top: 27%!important;
+        }
         .owl-carousel .item ul li {
             font-size: 10px!important;
         }
         .owl-prev,
         .owl-next {
             top: 0!important;
+        }
+        .owl-next {
+            right: 4%!important;
+        }
+        .owl-carousel .item ul li {
+            padding: 0%!important;
+            margin: 2%!important;
         }
         .sub-content .carousel-item {
             padding: 20px 40px!important;
@@ -256,19 +266,25 @@
     }
     
     @media(max-width:1025px) {
-        .nav-item a,
-        .nav-item a:hover {
-            color: #0b192c!important;
-            background: white;
+        .dropdown a {
+            color: #0b192c;
+            z-index: 10000;
         }
-        .navbar-nav {
-            background: #fff!important;
+        .dropdown a:hover,
+        .dropdown a:after {
+            background: #fff;
+            color: #0b192c!important;
+            z-index: 10000;
+            text-decoration: underline!important;
+        }
+        .about {
+            margin-top: 30%;
         }
         .no-display {
             display: block;
         }
         .content {
-            margin-top: 45%;
+            margin-top: 0%;
         }
         .content p {
             padding-right: 10%;
@@ -316,10 +332,8 @@
             top: 21%;
         }
         .owl-carousel {
-            position: absolute;
-            top: 45%;
-            left: 0;
             display: block!important;
+            margin-top: 3%;
         }
         .owl-carousel .item {
             margin-top: 10%;
@@ -342,16 +356,16 @@
         .owl-prev,
         .owl-next {
             position: absolute;
-            top: 30%;
+            top: 40%;
         }
         .owl-prev {
             left: 5%;
         }
         .owl-next {
-            right: 5%;
+            right: 17%;
         }
         .content {
-            left: 5%;
+            left: 0%;
         }
         .sub-content {
             padding: 20% 0%;
@@ -463,4 +477,15 @@
         height: 0px;
         border: 3px solid #0C4EA2;
         transform: rotate(-90deg);
+    }
+    
+    @media(max-width:1000px) {
+        .nav-item a {
+            color: #0b192c!important;
+            background: #fff;
+        }
+        .nav-item a:hover {
+            color: #0b192c!important;
+            text-decoration: underline;
+        }
     }
